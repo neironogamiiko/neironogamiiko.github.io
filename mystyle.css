@@ -4,7 +4,19 @@ body
 	background-image: url("bg.png");
 }
 
+
+h3
+{
+	font-style: italic;
+}
+
+
 .aboutme
+{
+	font-size: 14pt;
+}
+
+.skills
 {
 	font-size: 14pt;
 }
