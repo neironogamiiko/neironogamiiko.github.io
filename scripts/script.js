@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-	$("form).submit(function() { //Change
+	$("feedback).submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
