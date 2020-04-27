@@ -8,8 +8,14 @@ body
 h3
 {
 	font-style: italic;
+	color: white;
 }
 
+a
+{
+	color: white;
+	font-style: italic; 
+}
 
 .aboutme
 {
