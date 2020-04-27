@@ -1,0 +1,87 @@
+   table 
+   { 
+    width: 70%; 
+    border: 4px double black; 
+    border-collapse: collapse; 
+   }
+   
+   th 
+   { 
+    text-align: center; 
+	text-valign: middle;
+    padding: 5px;
+    border: 1px solid black;
+   }
+   
+   td 
+   { 
+    text-align: center; 
+	text-valign: middle;
+    padding: 5px;
+    border: 1px solid black;
+	
+   }
+   
+#num1:hover
+{
+ color: green;
+}
+
+#num2:hover
+{
+ color: green;
+}
+
+#num3:hover
+{
+ color: green;
+}
+
+#num4:hover
+{
+ color: green;
+}
+
+#num5:hover
+{
+ color: green;
+}
+
+#num6:hover
+{
+ color: green;
+}
+
+#num7:hover
+{
+ color: green;
+}
+
+#num1:active
+{
+ color: red;
+}
+#num2:active
+{
+ color: red;
+}
+#num3:active
+{
+ color: red;
+}
+#num4:active
+{
+ color: red;
+}
+#num5:active
+{
+ color: red;
+}
+#num6:active
+{
+ color: red;
+}
+#num7:active
+{
+ color: red;
+}
