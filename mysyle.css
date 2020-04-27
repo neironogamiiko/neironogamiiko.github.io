@@ -1,9 +1,10 @@
 body
 {
+	background-color: yellow;
 	background-image: url("bg.png");
 }
 
 .aboutme
 {
-	font-size: 18pt
+	font-size: 18pt;
 }
