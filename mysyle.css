@@ -1,6 +1,6 @@
 body
 {
-	background-image: bg.png
+	background-image: url("bg.png");
 }
 
 .aboutme
