@@ -79,11 +79,14 @@
 
 	<form class = "feedback" name = "feedback" action = "https://formspree.io/neironogamiiko@gmail.com" method = "POST">
 
-		<p> <label for = "username"> Ім'я: </label> <input type "text" name "username" placeholder = "Ім'я" required> </p>
-		<p> <label for = "email"> Електронна пошта: </label><input type "email" name "email" placeholder = "Електронна пошта" required> </p>
-		<p> <label for = "phone"> Телефон: </label><input type "text" name "phone" placeholder = "Номер телефону" required> </p>
+		<p> Ім'я: <input type "text" name "username" placeholder = "Ім'я" required> </p>
+		<p> Електронна пошта: <input type "email" name "email" placeholder = "Електронна пошта" required> </p>
+		<p> Телефон:<input type "text" name "phone" placeholder = "Номер телефону" required> </p>
 		<p> Повідомлення: </p>
 		<p> <textarea name = "message" cols = "40" rows = "10" required> </textarea> </p>
+		
+		<input type="hidden" name="_next" value="https://neironogamiiko.github.io/">
+		<input type="hidden" name="_subject" value="Feedback">
 		
 		<button type = "submit"> Відправити </button>
 	</form>
