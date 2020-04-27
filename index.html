@@ -76,20 +76,26 @@
 	<hr>
 	<center><h3> Зворотній зв'язок </h3></center>
 	<hr>
-<div class = "container">
-	<form class = "feedback" name = "feedback" action = "https://formspree.io/neironogamiiko@gmail.com" method = "POST">
-
-		<p> Ім'я: <input type "text" class = "form-control" name "username" placeholder = "Ім'я" required> </p>
-		<p> Електронна пошта: <input type "email" class = "form-control" name "email" placeholder = "Електронна пошта" required> </p>
-		<p> Телефон:<input type "text" class = "form-control" name "phone" placeholder = "Номер телефону" required> </p>
-		<p> Повідомлення: </p>
-		<p> <textarea name = "message" cols = "40" rows = "10" required> </textarea> </p>
-		
-		<input type="hidden" name="_next" value="https://neironogamiiko.github.io/">
-		<input type="hidden" name="_subject" value="Feedback">
-		
-		<input type = "submit" value = "Відправити">
-	</form>
+	
+<form class="form-inline" name = "feedback" action = "https://formspree.io/neironogamiiko@gmail.com" method = "POST">
+  <div class="form-group">
+    <label for="exampleInputName2">Ім'я:</label>
+    <input type="text" name = "name" class="form-control" id="name" placeholder="Ваше ім'я">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Email:</label>
+    <input type="email" name = "email" class="form-control" id="email" placeholder="Ваша пошта">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Телефон:</label>
+    <input type="text" name = "email" class="form-control" id="phobe" placeholder="Ваш номер телефону">
+  </div>
+    <textarea name = "message" cols = "40" rows = "10" required> </textarea>
+	<input type="hidden" name="_next" value="https://neironogamiiko.github.io/">
+	<input type="hidden" name="_subject" value="Feedback">
+  <button type="submit" class="btn btn-default">Відправити</button>
+</form>
+	
 </div>
 
 <hr>
