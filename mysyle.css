@@ -1,6 +1,9 @@
+body
+{
+	background-image: bg.png
+}
+
 .aboutme
 {
-	font-size: 14pt
-	color:black
-	background-color:green
+	font-size: 18pt
 }
