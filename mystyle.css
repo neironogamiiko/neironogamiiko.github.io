@@ -2,7 +2,8 @@ body
 {
 	background-color: yellow;
 	background-image: url("bg.png");
-	background-repeat;
+	background-repeat-x;
+	background-position: 0;
 }
 
 h1
