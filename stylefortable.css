@@ -39,7 +39,7 @@
 
 #num4:hover
 {
- color: green;
+ color: blue;
   transition: all 1s ease-in-out; 
 }
 
@@ -50,13 +50,13 @@
 
 #num6:hover
 {
- color: green;
+ color: blue;
   transition: all 1s ease-in-out; 
 }
 
 #num7:hover
 {
- color: green;
+ color: blue;
  transition: all 1s ease-in-out; 
 }
 
