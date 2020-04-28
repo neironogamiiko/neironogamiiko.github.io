@@ -228,8 +228,8 @@ p.footer_social-icons a:hover {
 	}
 	
 	.header_title{
-		font-size: 38px;
-		line-height: 48px;
+		font-size: 40px;
+		line-height: 50px;
 		margin-bottom: 15px;
 	}
 	
@@ -264,5 +264,13 @@ p.footer_social-icons a:hover {
 	
 	.footer_social-icons{
 		color: #FFF;
+	}
+	
+	.opus{
+		font-size: 40px;
+		line-height: 50px;
+		margin-bottom: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
