@@ -203,3 +203,21 @@ p.footer_social-icons a:hover {
 .name:hover{
 	color: cyan;
 }
+
+
+
+@media (max-width: 1160px){
+	.container{
+		width: 100%
+	}
+	
+	.col-4{
+		width: 100%;
+		box-sizing: border-box;
+		margin: 0;
+		margin-bottom: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+	}
+}
