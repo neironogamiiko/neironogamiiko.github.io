@@ -224,4 +224,29 @@ p.footer_social-icons a:hover {
 		padding-right: 15px;
 		text-align: center;
 	}
+	
+	.header_title{
+		font-size: 38px;
+		line-height: 48px;
+		margin-bottom: 15px;
+	}
+	
+	.header_slogan{
+		font-size: 22px;
+		line-height: 38px;
+	}
+	
+	.story{
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	
+	.title{
+		font-size: 36px;
+	}
+	
+	.footer{
+		padding-top: 70px;
+		padding-bottom: 60px;
+	}
 }
