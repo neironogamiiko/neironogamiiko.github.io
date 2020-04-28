@@ -254,4 +254,9 @@ p.footer_social-icons a:hover {
 		max-width: 100%;
 		height: auto;
 	}
+	
+	.header{
+		padding-left: 15 px;
+		padding-right: 15px;
+	}
 }
