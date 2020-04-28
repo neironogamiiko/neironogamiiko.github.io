@@ -58,6 +58,10 @@ img{
 	justify-content: center;
 }
 
+.header_arrow{
+	color: #FFF;
+}
+
 .header_title{
 		font-size: 56px;
 

@@ -10,6 +10,7 @@
 	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7,0/css/font-awesome.min.css">	
 	<link rel = "shortcut icon" type = "x-icon" href = "head.png">
 	<script src = "https://kit.fontawesome.com/fe40439f36.js" crossorigin = "anonymys"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,9 @@
 		
 		<div class = "header_title"> Microsoft Windows </div>
 		<div class = "header_slogan"> «Your potential. Our Passion» <br> © Microsoft </div>
+		<a href = "#main" onclick = "slowScroll('#main')">
 		<div class = "header_arrow"> <i class="fas fa-chevron-down"></i> </div>
+		</a>
 		
 	</div>
 <!-- Конец шапки -->
@@ -48,7 +51,7 @@
 			
 			<div class = "col-4">
 				<div class = "story-item">
-					<div class = "story-item_img"><img src = "prog.jpg" alt = "programs"></div>
+					<div class = "story-item_img" id = "main"><img src = "prog.jpg" alt = "programs"></div>
 					<div class = "story-item_title"><a href = "#">Інтегровані програмні продукти</a></div>
 					<div class = "story-item_text">Короткий опис продуктів</div>
 				</div>
@@ -97,6 +100,16 @@
 			</div>
 		</div>
 	</div>
+	
+<script type="text/javascript"> 
+     function slowScroll(id) { 
+         var offset = 0;
+         $('html, body').animate({ 
+              scrollTop: $(id).offset().top - offset 
+         }, 1000);
+         return false; 
+     } 
+</script>
 	
 </body>
 </html>
