@@ -201,5 +201,13 @@ p.footer_social-icons a:hover {
 .botton:hover {
 	color: #061634;
 	background-color: #FFF;
-	
+}
+
+.name {
+	text-decoration: none;
+	color: #6479a2;
+}
+
+.name:hover{
+	color: cyan;
 }
