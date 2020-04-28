@@ -249,4 +249,9 @@ p.footer_social-icons a:hover {
 		padding-top: 70px;
 		padding-bottom: 60px;
 	}
+	
+	.story-item_img img{
+		max-width: 100%;
+		height: auto;
+	}
 }
