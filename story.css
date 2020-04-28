@@ -4,6 +4,7 @@ html, body{
 	font-size: 16px;
 	line-height: 1.5;
 	min-width: 280px;
+	min-height: 400px;
 }
 
 * {
@@ -259,5 +260,9 @@ p.footer_social-icons a:hover {
 	.header{
 		padding-left: 15 px;
 		padding-right: 15px;
+	}
+	
+	.footer_social-icons{
+		color: #FFF;
 	}
 }
