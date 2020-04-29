@@ -48,4 +48,6 @@ nav{
     font-size: 15px;
 }
 
-.topnav
+.topnav a:hover{
+    border-bottom: 2px solid #000;
+}
