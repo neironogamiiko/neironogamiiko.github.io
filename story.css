@@ -11,6 +11,10 @@ html, body{
 	box-sizing: border-box;
 }
 
+a {
+    transition: 0.3s ease-out;    
+}
+
 img{
 	
 	height: 203px;
@@ -172,10 +176,11 @@ p.footer_social-icons a {
 	color: #FFF;
 	text-decoration: none;
 	margin-right:15px;
+    transition: 0.2s ease-out;
 }
 
 p.footer_social-icons a:last-child {
-	margin-right
+	margin-right: 0px;
 }
 
 p.footer_social-icons a:hover {
@@ -185,6 +190,8 @@ p.footer_social-icons a:hover {
 p.svaz{
 	margin-top: 25px;
 }
+
+
 
 .botton {
 	font-weight: 700;
@@ -202,6 +209,10 @@ p.svaz{
 	padding-bottom: 8px;
 	padding-left: 23px;
 	padding-right: 23px;
+    
+    margin-bottom: 17px;
+    
+    transition: 0.2s ease-out;
 }
 
 .botton:hover {
@@ -275,7 +286,7 @@ p.svaz{
 	}
 	
 	.opus{
-		font-size: 20px;
+		font-size: 15px;
 		line-height: 20px;
 		margin-bottom: 15px;
 		padding-left: 15px;
