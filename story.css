@@ -182,6 +182,10 @@ p.footer_social-icons a:hover {
 	color: cyan;
 }
 
+p.svaz{
+	margin-top: 25px;
+}
+
 .botton {
 	font-weight: 700;
 	display: inline-box;
