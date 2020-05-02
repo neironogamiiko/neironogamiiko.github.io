@@ -29,6 +29,7 @@ nav{
     margin: auto;
     width: 1260px;
     height: 60px;
+    
 }
 
 .topnav{
@@ -36,6 +37,7 @@ nav{
     font-size: 14px;
     margin-top: 20px;
     text-align: center;
+
 }
 
 .topnav a{
