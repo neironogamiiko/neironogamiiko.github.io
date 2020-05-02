@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width">
+    <title> About Versions</title>
+    <link rel = 'stylesheet' href="vers.css">
+    <link href = "https://fonts.googleapis.com/css?family=Raleway" rel = "stylesheet">
+</head>
+<body>
+    
+    <header>
+        
+        <div class = "logo">
+            <img class = "graficlogo" src = "logo.png" alt = "logo">
+        </div>
+        
+        <nav>
+            <div class = "topnav" id = "myTopnav">
+                <a href = "#"> Windows 1.0 </a>
+                <a href = "#"> Windows для MS-DOS </a>
+                <a href = "#"> Windows 95 </a>
+                <a href = "#"> Windows 2000 </a>
+                <a href = "#"> Windows XP </a>
+                <a href = "#"> Windows Vista </a>
+                <a href = "#"> Windows 7 </a>
+                <a href = "#"> Windows 8 </a>
+                <a href = "#"> Windows 10 </a>
+                <a id = "menu" href = "#" class = "icon">&#9776;</a>
+            </div>
+        </nav>
+        
+    </header>
+    
+    <script>
+    
+        window.onload = function menuF() {
+        let menu = document.getElementById('myTopnav');
+        menu.onclick = function myFunction() {
+         if (menu.className === 'topnav') {
+          menu.className += ' responsive';
+         } else {
+          menu.className = 'topnav';
+         }
+        }
+        }
+    
+    </script>
+    
+</body>
+</html>
