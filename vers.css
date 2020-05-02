@@ -11,9 +11,6 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-header{
-    border-bottom: 2px;
-}
 
 .logo{
     background-color: #000;
@@ -66,6 +63,8 @@ nav{
     font-size: 15px;
     padding-top: 10px;
     padding-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 1200px){
