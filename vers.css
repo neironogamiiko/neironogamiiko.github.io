@@ -70,6 +70,42 @@ nav{
     width: 100%;
 }
 
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;   
+}
+
+.footer a{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+.social i{
+    font-size: 25px;
+	width: 60px;
+	height: 50px;
+	bottom: 50px;
+	left: 50%;
+    color: #FFF;
+	text-decoration: none;
+	margin-right:15px;
+    transition: 0.2s ease-out;
+}
+
+.social i:hover{
+    color: cyan;
+}
+
 @media screen and (max-width: 1200px){
     
     @media screen and (max-width: 768px) {
