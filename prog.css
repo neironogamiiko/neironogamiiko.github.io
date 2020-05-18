@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    text-indent: 20px;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -21,10 +25,10 @@ body{
 }
 
 .logo img{
-    height: 203px;
-	width: 475px;
+    height: 150px;
+	width: 400px;
     background-color: #000;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 .graficlogo{
@@ -99,9 +103,9 @@ ul{
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
           .topnav a {
             display: none;
           }
